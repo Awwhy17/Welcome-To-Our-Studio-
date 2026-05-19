@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    background-image: url(img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .container .navbar .con {
+    justify-content: space-between;
+}
+
+
+header .container .navbar ul {
+    margin-right: 0 !important;
+    display: flex;
+    justify-content: end !important;
+}
+
+header .container .navbar .navbar-collapse {
+    flex-basis: 0;
+    flex-grow: 0;
+}
+
+header .container .navbar {
+    background-color: transparent !important;
+}
+
+header .container .navbar ul li a {
+    color: white !important;
+    font-size: 20px;
+    transition: .3s;
+}
+
+header .container .navbar ul li:hover a {
+    color: #ffc800 !important;
+}
+
+header .container .container-fluid img {
+    height: 30px;
+}
+
+header .container .bodyhead {
+    padding-bottom: 300px;
+    padding-top: 300px;
+    text-align: center;
+    color: white;
+}
+
+header .container .bodyhead p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+header .container .bodyhead h1 {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+
+header .container .bodyhead a {
+    text-decoration: none;
+    background-color: #ffc800;
+    font-size: 30px;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 6px;
+}
+
+@media (max-width:767px) {
+    header .container .bodyhead h1 {
+        font-size: 40px;
+    }
+
+    header .container .bodyhead a {
+        font-size: 20px;
+    }
+}
+
+.page {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page .head {
+    margin-bottom: 40px;
+}
+
+.page .head h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.page .head p {
+    color: gray;
+    font-style: italic;
+}
+
+.page .container .row .card {
+    border: none;
+    margin-bottom: 30px;
+
+}
+
+
+.page .container .row .card i {
+    color: white;
+    width: fit-content;
+    font-size: 40px;
+    margin: auto;
+    background-color: #ffc800;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.page .container .row .card h2 {
+    margin: 20px 0;
+}
+
+.port {
+    background-color: #f8f9fa !important;
+    text-align: center;
+}
+
+.port .container .row {
+    gap: 10px;
+    justify-content: center;
+}
+
+.port .container .row .card {
+    padding: 0;
+    width: 25rem !important;
+}
+
+.port .container .row .card .card-body h5 {
+    font-size: 30px;
+}
+
+.port .container .row .card .card-body p {
+    font-style: italic;
+}
+
+.page.container .row .per {
+    text-align: center;
+
+
+}
+
+.page .container .row .per img {
+    height: 200px;
+    border: .5rem solid #0000001a;
+    border-radius: 50%;
+
+}
+
+.page .container .row .per h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.page .container .perr {
+    gap: 20px;
+    justify-content: center;
+}
+
+.page .container .row .per span i {
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 50%;
+}
+
+.page .container .sps p {
+    margin-top: 50px;
+
+}
+
+.soial {
+    padding: 30px 0;
+    background-color: #f8f9fa;
+}
+
+.soial .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.soial .container img {
+    height: 45px;
+
+}
+
+.cont {
+    background-image: url(img/map-image.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cont .head h2 {
+    color: white;
+}
+
+.cont .container form {
+    position: relative;
+}
+
+.cont .container form .par div {
+    width: 100%;
+
+}
+
+.cont .container form .par input {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.cont .container form textarea {
+    padding: 20px;
+    width: 100%;
+    height: 85%;
+    margin-top: 20px;
+}
+
+.cont .container form button {
+    background-color: #ffc800;
+    border: none;
+    outline: none;
+    padding: 20px 70px;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+footer .container span {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container p {
+    margin: 0;
+}
+
+footer .container span i {
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 50%;
+}
